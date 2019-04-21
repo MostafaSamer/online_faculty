@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Collages</title>
+        <link rel="stylesheet" href="../../view/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="bg-light d-block" style="height: 80px; padding: 15px 10px">
+            <div class="container text-center">
+                <div class="form">
+                    <br>
+                    <h2>Add New Faculty</h2>
+                    <form class="" action="../../Controller/admin/add_faculty.php" method="POST" enctype="multipart/form-data">
+                        <input type="text" name="Name" value="" placeholder="Name" class="form-control">
+                        <br><br>
+                        <input type="text" name="Department" value="" placeholder="Department" class="form-control">
+                        <br><br>
+                        <input type="text" name="Courses" value="" placeholder="Courses" class="form-control">
+                        <br><br>
+                        <input type="text" name="Area_Expertise" value="" placeholder="Area Expertise" class="form-control">
+                        <br><br>
+                        <input type="text" name="Profissional_Interest" value="" placeholder="Profissional Interest" class="form-control">
+                        <br><br>
+                        <input type="text" name="Phone" value="" placeholder="Phone" class="form-control">
+                        <br><br>
+                        <input type="text" name="Location" value="" placeholder="Location" class="form-control">
+                        <br><br>
+                        <input type="file" name="file" class="form-control">
+                        <br><br>
+                        <div class="">
+                            <button type="submit" name="Cancel" class="btn btn-outline-dark">Cancel</button>
+                            <button type="submit" name="Submit" class="btn btn-info">Submit</button>
+                        </div>
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="../../view/js/bootstrap.min.js" charset="utf-8"></script>
+</html>
